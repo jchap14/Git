@@ -1,0 +1,13 @@
+## initiate an empty git repository in cwd
+git init
+## add file(s)
+git add $file
+## commit changes
+git commit -m "$commit_comment"
+## specify a remote repository to add to
+git remote add origin https://github.com/jchap14/$repository
+## add the commits to the specified remote repository
+git push -u origin master
+
+## check status
+git status
